@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Manga Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		nav {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
+		}
+		nav a {
+			color: #fff;
+			margin: 0 10px;
+			text-decoration: none;
+		}
+		h1, h2 {
+			text-align: center;
+		}
+		.container {
+			max-width: 800px;
+			margin: auto;
+			padding: 20px;
+		}
+		.series {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin-top: 20px;
+		}
+		.series a {
+			text-decoration: none;
+			color: #333;
+		}
+		.series img {
+			max-width: 300px;
+			margin: 10px;
+			border: 1px solid #333;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">Manga Series</a>
+	</nav>
+	<div class="container">
+		<h1>Welcome to My Manga Website</h1>
+		<p>This is a simple website that I created to showcase my favorite manga series.</p>
+		<h2>Manga Series</h2>
+		<div class="series">
+			<a href="#">
+				<img src="series1.jpg" alt="Series 1">
+				<h3>Series 1</h3>
+			</a>
+			<a href="#">
+				<img src="series2.jpg" alt="Series 2">
+				<h3>Series 2</h3>
+			</a>
+			<a href="#">
+				<img src="series3.jpg" alt="Series 3">
+				<h3>Series 3</h3>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
